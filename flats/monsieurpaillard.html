@@ -7,16 +7,16 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title></title>
-    <link href="stylesheets/application-6e3cb073.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <link href="../stylesheets/application-6e3cb073.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     
 <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" alt="Logo" />
+    <img src="../images/logo-acc9c0ec.png" alt="Logo" />
   </a>
 
   <!-- Right Navigation -->
@@ -53,17 +53,48 @@
 </div>
 
 
-    <div id = "team">
-<ul class="list-inline text-center">
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/MarcelSF" class="img-circle" alt="Marcelsf" />
-      <h3>Marcelsf</h3>
-    </li>
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/CedDlh" class="img-circle" alt="Ceddlh" />
-      <h3>Ceddlh</h3>
-    </li>
-</ul>
+    <!-- Access data.flats with owner's name as key -->
+
+<!-- Inject flat data in template -->
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%), url(https://kitt.lewagon.com/placeholder/cities/london); height: 50vh; background-position: center;"">
+</div>
+<div class="header">
+  <div class="container">
+    <div class="row">
+     <div class="col-xs-12 col-sm-4">
+       <img src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard" class="img-circle" alt="Monsieurpaillard" />
+     </div>
+     <div class="col-xs-12 col-sm-4 ">
+       <p>Romain's home</p>
+       <h1>Nice flat in Piccadilly</h1>
+       <p>London, UK</p>
+       <p>3</p>
+     </div>
+     <div class="col-xs-12 col-sm-4">
+        <form action="#">
+          <h4>Book this flat</h4>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-xs-6">
+                <input type="text" class="form-control" placeholder="checkin" id="checkin">
+              </div>
+              <div class="col-xs-6">
+                <input type="text" class="form-control" placeholder="checkout">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <select name="" id="guests" class="form-control">
+              <option value="1">1 guest</option>
+              <option value="2">2 guests</option>
+              <option value="3">3 guests</option>
+            </select>
+          </div>
+          <input type="submit" class="btn btn-danger" value="Book it" style="width: 100%">
+        </form>
+      </div>
+   </div>
+  </div>
 </div>
 
     <div class="footer">
