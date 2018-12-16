@@ -3,6 +3,8 @@ activate :autoprefixer do |prefix|
 end
 
 activate :sprockets
+activate :directory_indexes
+activate :asset_hash
 
 page '/*.xml', layout: false
 page '/*.json', layout: false
