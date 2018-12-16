@@ -6,6 +6,10 @@ activate :sprockets
 activate :directory_indexes
 activate :asset_hash
 
+
+# config/application.rb
+config.assets.initialize_on_precompile = false
+
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
